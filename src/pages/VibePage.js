@@ -1,17 +1,19 @@
+import { useState} from 'react'
+
 
 const musicData = {
     Happy: [
       {song: "I feel It Coming", artist: "The Weeknd" },
       {song: "Adore You", artist: "Harry Styles" },
       {song: "Ballin", artist: "DJ Mustard ft. Roddy Ricch" },
-      {song: "Ginger", artist: "WizKid ft. Burna Boy" },
+      {song: "Blessed", artist: "WizKid ft. Damien Marley" },
       {song : "", artist: "" },
   
     ],
     Chill: [
       {song: "Free Mind", artist: "Tems" },
-      {song: "ZTFO", artist: "Big Sean" },
-      {song: "Blessed", artist: "WizKid ft. Damian Marley" },
+      {song: "Sativa", artist: "Jhene Aiko ft Swae Lee" },
+      {song: "FTW (Summer in London)", artist: "Brent Faiyaz" },
       {song: "Good Days", artist: "SZA" },
       {song: "Blast Off", artist: "Silk Sonic" },
     ],
