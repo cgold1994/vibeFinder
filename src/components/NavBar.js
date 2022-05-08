@@ -15,7 +15,7 @@ function NavBar() {
 
 
     return(
-        <div classname="navbar">
+        <div className="navbar">
           <nav>
             <Link to="/home" style={navStyle}>Home</Link>
             <Link to="/playlist"style={navStyle}>Playlists</Link>
